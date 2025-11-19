@@ -50,12 +50,4 @@ lightbox.option({
   wrapAround: true
 });
 
-const style = document.createElement("style");
-style.textContent = `
-  .lb-data .lb-caption {
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
-`;
-document.head.appendChild(style);
 

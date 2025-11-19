@@ -13,7 +13,7 @@ body {
   }
 
   .character h2{
-    font-size: 40px;
+    font-size: 20px;
   }
   
   /* ========== Character Card Styling ========== */
@@ -169,6 +169,28 @@ button:hover {
     opacity: 1;
     transform: scale(1);
   }
+
+
+.lb-data .lb-caption {
+  font-size: 30px;    
+  font-weight: bold;
+}
+.lb-data .lb-caption,
+.lb-data .lb-number {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8); 
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.lb-data {
+  text-align: center;
+}
+
+
+
+
+
   
   
 
